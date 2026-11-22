@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Downloaded TTS models (too large for git)
+**/models/*.onnx
+**/models/*.bin
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.log
